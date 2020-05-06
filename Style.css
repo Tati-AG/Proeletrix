@@ -7,9 +7,14 @@
 #link {
     width: 40px;
     height: 40px;
+    margin: 10px;
 }
 #row1 {
     /*position: absolute;
     text-align: center;
     color: white;*/
+}
+#contact {
+    max-width: 1340px;
+    margin: auto;
 }
