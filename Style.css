@@ -1,15 +1,46 @@
 input, select {
     width: 100%;
-    height: 30px;
+    height: 50px;
     border: 1px solid #167EC0;
     border-radius: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    padding-left: 20px;
+    /*margin: 15px 0px 15px 15px;
+    /*box-sizing: border-box;*/
 }
 
-.centered {
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
+label {
+    font-family: Work Sans;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+p {
+    margin-top: 25px;
+    font: Medium 16px/32px Work Sans;letter-spacing: 0px;
+}
+
+#about {
+    width: 100%;
+    max-width: 1150px;
+    height: 440px;
+    color:white;
+    text-align: center;
+    font-family: Work Sans;
+    margin: auto;
+    /*line-height: 440%;
+    text-align: center;*/
 }
 #link {
     width: 40px;
@@ -17,6 +48,14 @@ input, select {
     margin: 10px;
 }
 #row1 {
+    background-image: url(/img/Solar.png);
+    background-size: 100% 440px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 440px;
+    /*backdrop-filter: blur(undefined);
+    -webkit-backdrop-filter: blur(undefined);*/
     /*position: absolute;
     text-align: center;
     color: white;*/
