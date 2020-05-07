@@ -17,24 +17,20 @@ label {
     margin-bottom: 15px;
 }
 
-form {
-    margin-top: 70px;
-    margin-bottom: 100px;
-}
-
 h1 {
     margin-bottom: 0px;
     font-size: 40px;
 }
 p {
-    margin-top: 25px;
-    font: Medium 16px/32px Work Sans;letter-spacing: 0px;
+    margin: 25px;
+    font: 16px Work Sans;letter-spacing: 0px;
 }
 
 #about {
     width: 100%;
     max-width: 1150px;
-    height: 440px;
+    height: 100%;
+    max-height: 440;
     color:white;
     text-align: center;
     font-family: Work Sans;
@@ -63,4 +59,6 @@ p {
 #contact {
     max-width: 1340px;
     margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
