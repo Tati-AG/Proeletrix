@@ -5,9 +5,22 @@ input, select {
     border-radius: 10px;
     font-family: Arial;
     font-size: 14px;
-    padding-left: 20px;
-    /*margin: 15px 0px 15px 15px;
-    /*box-sizing: border-box;*/
+    padding: 0px 20px 0px 20px;
+}
+
+input[type=submit] {
+    width: 170px;
+    height: 45px;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #167EC0;
+    box-shadow: 0px 3px 6px #000029;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px; /*temporário*/
+    color: white;
+    font-size: 16px;
+    font-family: Work Sans;
 }
 
 label {
@@ -26,6 +39,11 @@ p {
     font: 16px Work Sans;letter-spacing: 0px;
 }
 
+.container-fluid {
+    padding: 0px;
+    padding-top: 20px;
+}
+
 #about {
     width: 100%;
     max-width: 1150px;
@@ -35,8 +53,6 @@ p {
     text-align: center;
     font-family: Work Sans;
     margin: auto;
-    /*line-height: 440%;
-    text-align: center;*/
 }
 #link {
     width: 40px;
@@ -44,17 +60,13 @@ p {
     margin: 10px;
 }
 #row1 {
-    background-image: url(/img/Solar.png);
-    background-size: 100% 440px;
-    background-attachment: fixed;
+    background-image: url(/img/Solarefect.png);
+    background-size: cover;
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center center;
     min-height: 440px;
-    /*backdrop-filter: blur(undefined);
-    -webkit-backdrop-filter: blur(undefined);*/
-    /*position: absolute;
-    text-align: center;
-    color: white;*/
+
 }
 #contact {
     max-width: 1340px;
