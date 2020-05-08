@@ -1,26 +1,41 @@
-input, select {
-    width: 100%;
-    height: 50px;
-    border: 1px solid #167EC0;
-    border-radius: 10px;
-    font-family: Arial;
-    font-size: 14px;
-    padding: 0px 20px 0px 20px;
+.container-fluid {
+    padding: 0px;
+    padding-top: 20px;
 }
 
-input[type=submit] {
-    width: 170px;
-    height: 45px;
-    padding: 0px;
-    border-radius: 20px;
-    background-color: #167EC0;
-    box-shadow: 0px 3px 6px #000029;
-    display: block;
-    margin: 0 auto;
-    margin-top: 30px; /*temporário*/
-    color: white;
-    font-size: 16px;
+#hero-image {
+    background-image: url(/img/Solarefect.png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 440px;
+}
+
+#hero-text {
+    width: 100%;
+    max-width: 1150px;
+    height: 100%;
+    max-height: 440;
     font-family: Work Sans;
+    color:white;
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+p {
+    margin: 25px;
+    font-size: 16px;
+}
+
+#contact {
+    max-width: 1340px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 label {
@@ -30,47 +45,38 @@ label {
     margin-bottom: 15px;
 }
 
-h1 {
-    margin-bottom: 0px;
-    font-size: 40px;
-}
-p {
-    margin: 25px;
-    font: 16px Work Sans;letter-spacing: 0px;
-}
-
-.container-fluid {
-    padding: 0px;
-    padding-top: 20px;
-}
-
-#about {
+input, select {
     width: 100%;
-    max-width: 1150px;
-    height: 100%;
-    max-height: 440;
-    color:white;
-    text-align: center;
-    font-family: Work Sans;
-    margin: auto;
+    height: 50px;
+    border: 1px solid #167EC0;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 0px 20px 0px 20px;
 }
-#link {
+input[type=submit] {
+    width: 170px;
+    height: 45px;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #167EC0;
+    box-shadow: 0px 3px 6px #000029;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    font-family: Work Sans;
+}
+input[type=file] {
+    display: none;
+}
+
+#link{
+    margin: auto;
+    min-width: 220px;
+}
+#link img {
     width: 40px;
     height: 40px;
     margin: 10px;
-}
-#row1 {
-    background-image: url(/img/Solarefect.png);
-    background-size: cover;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 440px;
-
-}
-#contact {
-    max-width: 1340px;
-    margin: auto;
-    margin-top: 70px;
-    margin-bottom: 100px;
 }
