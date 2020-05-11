@@ -1,0 +1,57 @@
+#PopUp {
+  margin: auto;
+  padding: 20px 25px 25px 25px;
+  max-width: 1000px;
+  background-color: #000000;
+  background-image: url(/img/Solarpopefect.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#PopUp #about {
+  padding-bottom: 25px;
+  max-width: inherit;
+}
+
+#PopUp #hero-text {
+  max-width: 860px;
+  padding: 0px;
+}
+
+#PopUp h1{
+  font-size: 28px;
+}
+
+#PopUp p {
+  margin: 12px 0px 0px 0px;
+  font-size: 12px;
+}
+
+#PopUp #contact {
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+#PopUp label {
+  font-size: 12px;
+  margin: 10px 0px 8px 0px;
+  color: white;
+}
+
+#PopUp input, select {
+  height: 35px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: none;
+}
+
+#PopUp input[type=submit] {
+  width: 115px;
+  height: 30px;
+  font-size: 10px;
+}
+
+#PopUp .map-responsive{
+  margin: 65px 0px 50px 0px;
+}

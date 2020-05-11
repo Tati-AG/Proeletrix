@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Stylepop.css">
+
+    <title>PopUp</title>
+  </head>
+  <body>
+    <div class="container-fluid" id="PopUp">
+      <div class="row" id="about">
+        <div class="col" id="hero-text">
+          <h1>Orçamento</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+        </div>
+      </div>
+
+      <!--Formulário e mapa-->
+      <div class="row" id="contact">
+
+        <!--Formulário-->
+        <div class="col-lg-7 col-12" id="formulario">
+          <form action="">
+            <!--Linha 1-->
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <label for="gasto">Qual o seu gasto com conta de luz?</label><br>
+                <input type="number" name="gasto" id="gasto">
+              </div>
+              <div class="col-md-6 col-12">
+                <label for="cep">CEP</label><br>
+                <input type="text" name="cep" id="cep">
+              </div>
+            </div>
+            <!--Linha 2-->
+            <div class="row">
+              <div class="col">
+                <label for="add">Endereço</label><br>
+                <input type="text" name="add" id="add"> 
+              </div>
+            </div>
+            <!--Linha 3-->
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <label for="cidade">Cidade</label><br>
+                <input type="text" name="cidade" id="cidade">
+              </div>
+              <div class="col-md-6 col-12">
+                <label for="uf">UF</label><br>
+                <select required name="uf" id="uf">
+                  <option value="" selected>Selecione seu estado</option>
+                  <option value="Acre">Acre</option>
+                  <option value="Alagoas">Alagoas</option>
+                  <option value="Amapá">Amapá</option>
+                  <option value="Amazonas">Amazonas</option>
+                  <option value="Bahia">Bahia</option>
+                  <option value="Ceará">Ceará</option>
+                  <option value="Distrito Federal">Distrito Federal</option>
+                  <option value="Espírito Santo">Espírito Santo</option>
+                  <option value="Goiás">Goiás</option>
+                  <option value="Maranhão">Maranhão</option>
+                  <option value="Mato Grosso">Mato Grosso</option>
+                  <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                  <option value="Minas Gerais">Minas Gerais</option>
+                  <option value="Pará">Pará</option>
+                  <option value="Paraíba">Paraíba</option>
+                  <option value="Paraná">Paraná</option>
+                  <option value="Pernambuco">Pernambuco</option>
+                  <option value="Piauí">Piauí</option>
+                  <option value="Rio de Janeiro">Rio de Janeiro</option>
+                  <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                  <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                  <option value="Rondônia">Rondônia</option>
+                  <option value="Roraima">Roraima</option>
+                  <option value="Santa Catarina">Santa Catarina</option>
+                  <option value="São Paulo">São Paulo</option>
+                  <option value="Sergipe">Sergipe</option>
+                  <option value="Tocantins">Tocantins</option>
+                </select>
+              </div>
+            </div>
+            <!--Linha 4-->
+            <div class="row">
+              <div class="col">
+                <label for="nome">Nome Completo</label><br>
+                <input type="text" name="nome" id="nome"> 
+              </div>
+            </div>
+            <!--Linha 5-->
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" >
+              </div>
+              <div class="col-md-6 col-12">
+                <label for="cel">Celular</label><br>
+                <input type="tel" name="cel" id="cel">
+              </div>
+            </div>
+            <!--Linha 6-->
+            <div class="row">
+              <div class="col">
+                <label for="fatura">Fatura da Conta de Luz</label><br>
+                <input type="file" name="fatura" id="fatura"> 
+              </div>
+            </div>
+            <!--Colocar o recaptcha com margem 30-->
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+
+        <!--Mapa-->
+        <div class="col-lg-5 col-12" id="mapa">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.6507759691085!2d-48.62721348570579!3d-27.00959478308598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b79166f4c68f%3A0xe82fcda6f184fed4!2sProeletrix%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1588972396510!5m2!1spt-BR!2sbr" width="560" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          <!--Redes sociais-->
+          <div class="row">
+            <div class="col-4" id="link">
+              <a href="">
+                <img src="/img/instagram.svg">
+              </a>
+              <a href="">
+                <img src="/img/facebook.svg">
+              </a>
+              <a href="">
+                <img src="/img/whatsapp.svg">
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
